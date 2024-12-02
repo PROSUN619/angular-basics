@@ -1,0 +1,13 @@
+github repo
+https://github.com/leelanarasimha/angular17-course
+
+1. there are 3 types of selector
+a) element selecto
+b) attribute selector
+c) class selector
+
+2. there are 3 types of view encapsulation
+a) encapsulated - default one and global css can be applied
+b) shadow dom - global css not applied
+c) none - css will be ovelapped to app component not restricted to the component
+
