@@ -1,4 +1,4 @@
-<app-card>
+<!-- <app-card>
     <p title>This is title</p>
     <p body>This is body</p>
     <div>This is a default text</div>
@@ -10,7 +10,7 @@
     <div>This is a default text 1</div>
 </app-card>
 
-<app-hover-click></app-hover-click>
+<app-hover-click></app-hover-click> -->
 
 <!-- <h3>Welcome to Angular 17</h3>
 
@@ -30,3 +30,8 @@
 </div>
 
 <div>{{datafromChild}}</div> -->
+
+<app-lifecyclehook [title]="title" *ngIf="isActive"></app-lifecyclehook>
+<button (click)="changeTitle()">Change Title</button>
+<button (click)="toogle()">Toogle Component</button>
+
