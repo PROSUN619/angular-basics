@@ -5,12 +5,13 @@ import CounterComponent from './counter/counter.component';
 import { GetterInputComponent } from './getter-input/getter-input.component';
 import { PanelComponent } from './panel/panel.component';
 import { CardComponent } from './card/card.component';
+import { HoverClickComponent } from './hover-click/hover-click.component';
 
 @Component({
   selector: 'app-root',
   standalone: true,
   imports: [RouterOutlet, ProfileComponent, 
-    CounterComponent, GetterInputComponent, PanelComponent,CardComponent],
+    CounterComponent, GetterInputComponent, PanelComponent,CardComponent,HoverClickComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
